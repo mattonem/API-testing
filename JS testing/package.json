@@ -1,0 +1,47 @@
+{
+  "name": "karma-browserstack-example",
+  "version": "1.0.0",
+  "description": "Sample To test Karma with BrowserStack",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browserstack/karma-browserstack-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/browserstack/karma-browserstack-example/issues"
+  },
+  "homepage": "https://github.com/browserstack/karma-browserstack-example#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "browserify": "^17.0.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "chai-json-pattern": "^1.1.0",
+    "diff": "^5.0.0",
+    "karma-browserify": "^8.1.0",
+    "karma-browserstack-launcher": "^1.5.1",
+    "karma-chai-http": "^1.0.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-parallel": "^0.3.1",
+    "karma-qunit": "^0.1.5",
+    "karma-spec-reporter": "^0.0.32",
+    "mocha": "^9.0.2",
+    "qunitjs": "^1.19.0",
+    "spec": "^1.0.1",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "karma": "^6.3.4",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^2.0.1"
+  }
+}
